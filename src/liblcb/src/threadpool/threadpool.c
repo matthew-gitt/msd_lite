@@ -93,6 +93,7 @@ static tp_p g_tp = NULL;
 #define TP_CTL_DISABLE		3
 #define TP_CTL_LAST		TP_CTL_DISABLE
 
+#define SYS_pidfd_open 434
 
 #ifdef BSD /* BSD specific code. */
 
